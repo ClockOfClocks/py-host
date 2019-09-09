@@ -24,7 +24,7 @@ calibration done for the 2-nd axis = (result & 0xFF00) > 0
 | :---: | :---: | --- | --- |
 | 6     | 1 or 2 | 1   | Does not matter | 
 | 6     | 4 or 8 | 1   | `uint16`: microseconds to sleep for one hand | 
-| 6     | 12 (4 &#124; 8) | 2   | two `uint16` microseconds to sleep for each of the hands |
+| 16    | 12 (4 &#124; 8) | 2   | two `uint16` microseconds to sleep for each of the hands |
 
 #### Start Register Number encoding:
 _(Bit mask)_
